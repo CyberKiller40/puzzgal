@@ -1,0 +1,21 @@
+meta:
+  info: Configuration file for Puzzgal - a static jigsaw puzzle gallery creator
+  version: 1
+  last_update: 2024-04-02
+config:
+  miniatures:
+    medium:
+      size: 500 #aspect ratio respected, max size set here
+      format: webp
+      options: quality=70
+    thumbnail:
+      size: 160 #cropped to square of this size
+      format: webp
+      options: quality=70
+  html:
+    include_puzzle_info: True
+    include_assemblies: True #only if include_puzzle_info is True
+    include_bbcode: True
+  logging:
+    log_to_file: True
+    log_level: INFO
