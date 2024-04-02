@@ -1,0 +1,30 @@
+meta:
+  info: Data file for Puzzgal - a static jigsaw puzzle gallery creator
+  version: 1
+  last_update: 2024-04-02
+puzzle:
+  name: Something
+  brand: Cheap puzzles from China
+  series: Non-premium editions
+  published_date: 2020
+  obtained_date: 2021-09-01
+  elements:
+    vendor_elements: 1000 #as on the box
+    real_elements: 1008
+  size:
+    vendor_cm: 70x50 #as stated on the box
+    measured_cm: 70x50 #measured
+    measured_elements: 40x30
+  grid_type: square #square, circular, etc
+  notes: I like this box
+  assemblies:
+    - start_date: 2019-05-02
+      end_date: 2020-01-01
+      state: complete #complete or list damages and missing elements
+      who: me
+      notes: took longer than expected
+    - start_date:
+      end_date:
+      state:
+      who:
+      notes:
