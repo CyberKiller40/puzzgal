@@ -20,6 +20,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
 import argparse
+import pathlib
 
 class PuzzGal:
   def __init__(self, path):
@@ -37,7 +38,7 @@ class PuzzGal:
 
 if __name__ == "__main__":
   parser = argparse.ArgumentParser(description='PuzzGal - a static jigsaw puzzle gallery creator', epilog='Project website: https://github.com/CyberKiller40/puzzgal')
-  parser.add_argument('path', nargs=1, help='path to a directory with puzzle photos')
+  parser.add_argument('path', nargs=1, type=pathlib.Path, help='path to a directory with puzzle photos')
   parser.add_argument('-v', '--version', action='version', version=app_version)
   args = parser.parse_args()
 
