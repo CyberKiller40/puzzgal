@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+app_version = '0.0.1'
 """
 PuzzGal - a static jigsaw puzzle gallery creator
 Copyright (C) 2024 Łukasz 'CyberKiller' Korpalski
@@ -35,8 +36,9 @@ class PuzzGal:
     raise NotImplementedError()
 
 if __name__ == "__main__":
-  parser = argparse.ArgumentParser(prog='PuzzGal',description='a static jigsaw puzzle gallery creator')
+  parser = argparse.ArgumentParser(description='PuzzGal - a static jigsaw puzzle gallery creator', epilog='Project website: https://github.com/CyberKiller40/puzzgal')
   parser.add_argument('path', nargs=1, help='path to a directory with puzzle photos')
+  parser.add_argument('-v', '--version', action='version', version=app_version)
   args = parser.parse_args()
 
   app = PuzzGal(args.path[0])
