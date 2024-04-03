@@ -1,0 +1,3 @@
+airium==0.2.6
+pillow==10.3.0
+PyYAML==6.0.1
