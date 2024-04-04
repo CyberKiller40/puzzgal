@@ -17,6 +17,3 @@ config:
     include_puzzle_info: True
     include_assemblies: True #only if include_puzzle_info is True
     include_bbcode: True
-  logging:
-    log_to_file: True
-    log_level: INFO
