@@ -1,5 +1,5 @@
 meta:
-  info: Configuration file for Puzzgal - a static jigsaw puzzle gallery creator
+  info: Configuration file for PuzzGal - a static jigsaw puzzle gallery creator
   version: 1
   last_update: 2024-04-02
 config:
@@ -13,9 +13,7 @@ config:
       format: webp
       options: quality=70
   html:
+    base_url: http://example.com #for static embed codes
     include_puzzle_info: True
     include_assemblies: True #only if include_puzzle_info is True
     include_bbcode: True
-  logging:
-    log_to_file: True
-    log_level: INFO

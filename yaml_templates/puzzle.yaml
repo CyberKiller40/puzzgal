@@ -1,11 +1,12 @@
 meta:
-  info: Data file for Puzzgal - a static jigsaw puzzle gallery creator
+  info: Data file for PuzzGal - a static jigsaw puzzle gallery creator
   version: 1
   last_update: 2024-04-02
 puzzle:
   name: Something
   brand: Cheap puzzles from China
   series: Non-premium editions
+  barcode: 1234567890
   published_date: 2020
   obtained_date: 2021-09-01
   elements:
