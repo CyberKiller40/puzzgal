@@ -6,6 +6,7 @@ puzzle:
   name: Something
   brand: Cheap puzzles from China
   series: Non-premium editions
+  vendor_id: EX-1233456
   barcode: 1234567890
   published_date: 2020
   obtained_date: 2021-09-01

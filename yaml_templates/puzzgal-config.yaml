@@ -17,3 +17,4 @@ config:
     include_puzzle_info: True
     include_assemblies: True #only if include_puzzle_info is True
     include_bbcode: True
+    include_markdown: True
